@@ -22,7 +22,7 @@ const updateF = ev => setTemp({
           <input type="number" value={temp.c} onChange={updateC} />
         </div>
       <div>
-        <h1>Temperature in Farenheit</h1>
+        <h1>Temperature in Fahrenheit</h1>
         <input type="number" value={temp.f} onChange={updateF} />
       </div>
     </div>
